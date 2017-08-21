@@ -12,6 +12,8 @@ call plug#begin('~/.vim/plugins_by_vim-plug')
 
 Plug 'scrooloose/nerdtree'
 Plug 'pangloss/vim-javascript'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 " initialize plugin system
 call plug#end()
@@ -29,7 +31,9 @@ set relativenumber
 " turn on syntax
 syntax on
 
-colo pablo
+" color theme
+colo peachpuff
+
 " color for matching parenthesis
 highlight MatchParen cterm=reverse ctermbg=none ctermfg=red
 
@@ -40,3 +44,6 @@ nmap <leader>nt :NERDTree<cr>
 " remapping tab for ctrl+w for moving between windows 
 " tab will be alias for <C-w> then need to use arrows
 nnoremap <tab> <C-w>
+
+" Status bar there: downloaded from vim-airline
+let g:airline_theme='papercolor'

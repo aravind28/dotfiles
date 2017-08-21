@@ -2,7 +2,7 @@
 source ~/.bash_files
 
 # user terminal name
-export PS1="=> $ "
+export PS1=" ∑..∫..µ => "
 
 export PATH=/usr/local/bin:/usr/bin:$PATH
 
@@ -20,8 +20,6 @@ export CLICOLOR=1
 # set colors to match iterm2 terminal colors
 export TERM=xterm-256color
 
-export CLICOLOR=1
-
 # aliases
 alias la='ls -laF'
 alias rm='rm -i'
@@ -29,6 +27,6 @@ alias mv='mv -i'
 alias cp='cp -i'
 
 # creating aliases so that python command => python3
-# alias python='python3'
-# alias python2='python'
+alias py2='python2'
+alias py3='python3'
 
