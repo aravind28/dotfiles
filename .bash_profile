@@ -4,7 +4,8 @@ source ~/.bash_files
 # user terminal name
 export PS1=" ∑..∫..µ => "
 
-export PATH=/usr/local/bin:/usr/bin:$PATH
+# added the /ust/local/opt path for python execution: brew suggested this path
+export PATH=/usr/local/opt/python/libexec/bin:/usr/local/bin:/usr/bin:$PATH
 
 # for bash completion
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
@@ -26,7 +27,7 @@ alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
 
-# creating aliases so that python command => python3
+# creating aliases for different versions of python
 alias py2='python2'
 alias py3='python3'
 
