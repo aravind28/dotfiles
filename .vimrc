@@ -18,7 +18,7 @@ Plug 'vim-airline/vim-airline-themes'
 " initialize plugin system
 call plug#end()
 
-" vim configs 
+" general vim configs 
 " show the absolute line number of the cursor
 set number
 
@@ -44,6 +44,8 @@ nmap <leader>nt :NERDTree<cr>
 " remapping tab for ctrl+w for moving between windows 
 " tab will be alias for <C-w> then need to use arrows
 nnoremap <tab> <C-w>
+
+set laststatus=2
 
 " Status bar there: downloaded from vim-airline
 let g:airline_theme='papercolor'
