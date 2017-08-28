@@ -16,7 +16,7 @@ export PATH=/usr/local/opt/python/libexec/bin:/usr/local/bin:/usr/bin:$PATH
 export JAVA_HOME=$(/usr/libexec/java_home)
 
 # set CLICOLOR before TERM for ANSI colors in iterm2
-# export CLICOLOR=1
+export CLICOLOR=1
 
 # set colors to match iterm2 terminal colors
 export TERM=xterm-256color

@@ -47,5 +47,7 @@ nnoremap <tab> <C-w>
 
 set laststatus=2
 
+let g:airline#extensions#whitespace#enabled = 0
 " Status bar there: downloaded from vim-airline
 let g:airline_theme='papercolor'
+
