@@ -22,7 +22,8 @@ export CLICOLOR=1
 export TERM=xterm-256color
 
 # aliases
-alias la='ls -laF'
+alias la='ls -laFh'
+alias ll='ls -lFh'
 alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
