@@ -2,7 +2,8 @@
 source ~/.bash_files
 
 # user terminal name
-export PS1=" ∑..∫..µ => "
+# export PS1=" ∫µ [\W] \$ "
+export PS1="\$ "
 
 # added the /ust/local/opt path for python execution: brew suggested this path
 export PATH=/usr/local/opt/python/libexec/bin:/usr/local/bin:/usr/bin:$PATH
