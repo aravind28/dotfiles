@@ -14,6 +14,11 @@ export EDITOR=vim
 # for bash completion
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
+# for git branch completion
+if [ -f ~/.git-completion.bash ]; then
+	  . ~/.git-completion.bash
+fi
+
 # JAVA_HOME environment variable
 # this below command changes the java_home to the latest version when updates are performed
 # usually java_home=/Library/Java/JavaVirtualMachines/jdk/Contents/Home
