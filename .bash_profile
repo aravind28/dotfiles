@@ -3,7 +3,7 @@ source ~/.bash_files
 
 # user terminal name
 # export PS1=" ∫µ [\W] \$ "
-export PS1="\e[0;34m[@\u: \w]$ \e[m"
+export PS1="\[\e[0;34m\][@\u: \w]$ \[\e[m\]"
 
 # added the /ust/local/opt path for python execution: brew suggested this path
 export PATH=/usr/local/opt/python/libexec/bin:/usr/local/bin:/usr/bin:$PATH
